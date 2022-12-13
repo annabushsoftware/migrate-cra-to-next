@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.scss';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import '../styles/index.scss';
+import App from '../src/App';
+import reportWebVitals from '../src/reportWebVitals';
 import {
   createBrowserRouter,
   RouterProvider
 } from "react-router-dom";
-import CustomNavbar from './CustomNavbar';
-import About from './About';
+import CustomNavbar from '../src/CustomNavbar';
+import About from '../src/About';
 
 const router = createBrowserRouter([
   {
